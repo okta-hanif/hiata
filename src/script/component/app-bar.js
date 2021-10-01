@@ -3,7 +3,7 @@ class AppBar extends HTMLElement {
     super();
     this.shadowDOM = this.attachShadow({ mode: "open" });
   }
-
+ 
   connectedCallback() {
     this.render();
   }

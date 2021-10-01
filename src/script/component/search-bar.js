@@ -6,7 +6,7 @@ class SearchBar extends HTMLElement {
 
   connectedCallback() {
     this.render();
-  }
+  } 
 
   set clickEvent(event) {
     this._clickEvent = event;
