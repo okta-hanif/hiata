@@ -5,7 +5,7 @@ class MealList extends HTMLElement {
     super();
     this.shadowDOM = this.attachShadow({ mode: "open" });
   }
-
+ 
   set meals(meals) {
     this._meals = meals;
     this.render();
