@@ -8,7 +8,7 @@ const main = () => {
 
   const onButtonSearchClicked = async () => {
     DataSource.searchMeals(searchElement.value)
-      .then(renderResult)
+      .then(renderResult) 
       .catch(fallbackResult);
   };
 
